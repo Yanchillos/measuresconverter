@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<measuresTable>
+  <measureGroups>
+    <measureGroup id="1" name="Температура">
+      <measures>
+        <measure id="1" name="Цельсии"/>
+        <measure id="2" name="Кельвины"/>
+        <measure id="3" name="Фарингейты"/>
+      </measures>
+      <conversions>
+        <conversion sourceId="1" targetId="2" deltha="273.15"/>
+        <conversion sourceId="1" targetId="3" factor="1.8" deltha="32"/>
+        <conversion sourceId="2" targetId="3" factor="1.8" deltha="-459.67"/>
+      </conversions>
+    </measureGroup>
+    <measureGroup id="2" name="Веса">
+      <measures>
+        <measure id="1" name="Килограммы"/>
+        <measure id="2" name="Граммы"/>
+        <measure id="3" name="Милиграммы"/>
+        <measure id="4" name="Фунты"/>
+        <measure id="5" name="Унции"/>
+      </measures>
+      <conversions>
+        <conversion sourceId="1" targetId="2" factor="1e3"/>
+        <conversion sourceId="1" targetId="3" factor="1e6"/>
+        <conversion sourceId="1" targetId="4" factor="2.204622"/>
+        <conversion sourceId="1" targetId="5" factor="35.273962"/>
+        <conversion sourceId="2" targetId="3" factor="1e3"/>
+        <conversion sourceId="2" targetId="4" factor="2.204622e3"/>
+        <conversion sourceId="2" targetId="5" factor="35.273962e3"/>
+        <conversion sourceId="3" targetId="4" factor="2.204622e6"/>
+        <conversion sourceId="3" targetId="5" factor="35.273962e6"/>
+        <conversion sourceId="5" targetId="4" factor="16"/>
+      </conversions>
+    </measureGroup>
+    <measureGroup id="3" name="Длины">
+      <measures>
+        <measure id="1" name="Метры"/>
+        <measure id="2" name="Километры"/>
+        <measure id="3" name="Сантиметры"/>
+        <measure id="4" name="Милиметры"/>
+        <measure id="5" name="Мили"/>
+        <measure id="6" name="Ярды"/>
+        <measure id="7" name="Футы"/>
+        <measure id="8" name="Дюймы"/>
+      </measures>
+      <conversions>
+        <conversion sourceId="1" targetId="2" factor="1e-3"/>
+        <conversion sourceId="1" targetId="3" factor="1e2"/>
+        <conversion sourceId="1" targetId="4" factor="1e3"/>
+        <conversion sourceId="1" targetId="5" factor="0.621371e-3"/>
+        <conversion sourceId="1" targetId="6" factor="1.093613"/>
+        <conversion sourceId="1" targetId="7" factor="3.280839"/>
+        <conversion sourceId="1" targetId="8" factor="39.37"/>
+        <conversion sourceId="2" targetId="3" factor="1e-5"/>
+        <conversion sourceId="2" targetId="4" factor="1e-6"/>
+        <conversion sourceId="2" targetId="5" factor="0.621371"/>
+        <conversion sourceId="2" targetId="6" factor="1.093613e3"/>
+        <conversion sourceId="2" targetId="7" factor="3.280839e3" />
+        <conversion sourceId="2" targetId="8" factor="3.937e4"/>
+        <conversion sourceId="3" targetId="4" factor="1e-1"/>
+        <conversion sourceId="3" targetId="5" factor="0.621371e-5"/>
+        <conversion sourceId="3" targetId="6" factor="1.093613e-2"/>
+        <conversion sourceId="3" targetId="7" factor="3.280839e-2" />
+        <conversion sourceId="3" targetId="8" factor="3.937e-1"/>
+        <conversion sourceId="4" targetId="5" factor="0.621371e-6"/>
+        <conversion sourceId="4" targetId="6" factor="1.093613e-3"/>
+        <conversion sourceId="4" targetId="7" factor="3.280839e-3" />
+        <conversion sourceId="4" targetId="8" factor="3.937e-2"/>
+        <conversion sourceId="5" targetId="6" factor="1760" />
+        <conversion sourceId="5" targetId="7" factor="5280" />
+        <conversion sourceId="5" targetId="8" factor="63360" />
+        <conversion sourceId="6" targetId="7" factor="3" />
+        <conversion sourceId="6" targetId="8" factor="48" />
+        <conversion sourceId="7" targetId="8" factor="12" />
+      </conversions>
+    </measureGroup>
+  </measureGroups>
+</measuresTable>
